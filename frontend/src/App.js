@@ -14,15 +14,17 @@ import { Logo } from './Logo';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import Login from './pages/Login';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
+      {/* <Box textAlign="center" fontSize="xl">
       <Navbar/>
       <Hero/>
       <Footer/>
-      </Box>
+      </Box> */}
+      <Login/>
     </ChakraProvider>
   );
 }
